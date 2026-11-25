@@ -18,13 +18,13 @@ CUDA_VISIBLE_DEVICES=2 python eval_qwen_with_steer_2.py \
     --model_path "${MODEL_PATH}" \
     --steering_checkpoint "${STEERING_CHECKPOINT}" \
     --input_file "${INPUT_FILE}" \
-    --model_name "qwen2.5_steering_0.7_all" \
+    --model_name "qwen2.5_steering_0.6_all" \
     --output_record_dir "${RECORD_DIR}" \
     --output_logs_dir "${LOGS_DIR}" \
     --output_record_stats "${STATS_DIR}" \
     --steering_layers "14-27" \
     --steering_strength 0.6 \
-    > "${LOGS_DIR}/qwen2.5_steering_0.7_all.log" 2>&1 &
+    > "${LOGS_DIR}/qwen2.5_steering_0.6_all.log" 2>&1 &
 
 PID=$!
 echo "Evaluation started with PID: ${PID}"

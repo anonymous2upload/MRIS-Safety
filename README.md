@@ -325,16 +325,16 @@ Results are saved in `results/`:
 ```
 results/
 ├── logs/
-│   └── qwen2.5_steering_0.7_all.log
+│   └── qwen2.5_steering_0.6_all.log
 ├── records/
-│   └── qwen2.5_steering_0.7_all/
+│   └── qwen2.5_steering_0.6_all/
 │       ├── *_results_Aware_Answer.json
 │       ├── *_results_Aware_Refuse.json
 │       ├── *_results_Ignore_Answer.json
 │       ├── *_results_Ignore_Refuse.json
 │       └── results.json
 └── stats/
-    └── qwen2.5_steering_0.7_all.json
+    └── qwen2.5_steering_0.6_all.json
 ```
 
 ---
